@@ -24,7 +24,7 @@ console.log(state)
     return (
         <div>
         <div className='news'>
-        <div style={{backgroundColor:'teal',padding:"3px"}}>
+        <div style={{backgroundColor:'teal',padding:"20px"}}>
         <h1>Google News</h1>
         </div>
        <div>
@@ -36,8 +36,8 @@ console.log(state)
           <img src={el.urlToImage} alt="" />
           </div>
         <div className='title'>
-        <p>{el.title}</p>
-        <p>{el.publishedAt}</p>
+        <p style={{marginTop:"20px"}}>{el.title}</p>
+        <p style={{marginTop:"20px"}}>{el.publishedAt}</p>
         </div>
         </div>
         )

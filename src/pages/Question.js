@@ -5,7 +5,6 @@ import { profileContext } from "../context/myContext";
 import FIND_COURSE from "../services/course-api";
 
 
-
 const Question = () => {
   
   const { setProfile } = useContext(profileContext);
@@ -48,20 +47,8 @@ const Question = () => {
 
   
   return (
-    <div id="course-div">
-      <div className="course-top-div">
-        <h3>Welcome to Assignment Question</h3>
-        <ol>
-         <li>Create authentication apis using express and mongodb as database (login,  signup, userdetails, ect ).</li>
-         <li>Create protected routes using auth middleware.</li>
-         <li>Use JWT token for all types of authentication for the routes.</li>
-         <li>Push the code to github and share the link.</li>
-         <li>If you wish you can also make frontend in react js and host it in netlify ( Bonus Task ).</li>
-        </ol>
-       
-        <p>- given by Bhavana Polisetty</p>
-      </div>
-     
+    <div >
+    
     </div>
   );
 };

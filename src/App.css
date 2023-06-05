@@ -12,7 +12,7 @@ body {
 #nav-bar {
   background-color: black;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: right;
   padding: 0px 40px;
   height: 65px;
   align-items: center;
@@ -257,7 +257,8 @@ input[type="submit"]:hover {
 .profile {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+ justify-items:end;
+
 }
 .profile > img {
   width: 50px;

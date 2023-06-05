@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Pagenotfound from '../PageNot/Pagenotfound';
 function Assignment(props) {
     return (
         <div>
-           <h1>Assignment</h1> 
+          <Pagenotfound/>
         </div>
     );
 }

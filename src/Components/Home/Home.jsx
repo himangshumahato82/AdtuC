@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Home.css";
+import Atten from "../Attendance/Atten";
 import {Link,Outlet} from "react-router-dom";
 function Home(props) {
 var links=[
@@ -45,8 +46,13 @@ var links=[
 ];
 
     return (
+
+      <div className='main-div'>
+       
+      
         <div className="categoryContainer">
         <div className="linkContainer">
+        
           {links.map((link, index) => (
             <h3 >
             <Link style={{textDecoration:"none",color:"white"}} to={link.path}>{link.title}</Link>
@@ -57,6 +63,11 @@ var links=[
         <div>
           <Outlet />
         </div>
+      </div>
+      <div className='attendance'>
+          <Atten/>
+      </div>
+      
       </div>
     );
 }

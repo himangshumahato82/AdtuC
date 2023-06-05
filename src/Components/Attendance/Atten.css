@@ -1,0 +1,28 @@
+.cur{
+    width: auto;
+    margin: 14px;
+    padding: 20px;
+    text-align: left;
+    color: aliceblue;
+    background-color: rgb(206, 16, 16);
+}
+.att{
+    width: auto;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin:50% auto;
+   
+}
+.att>p{
+    color: green;
+    margin: 20px;
+}
+.att+h4{
+   text-align: center;
+    color: brown;
+}
+span{
+    color: rgb(236, 20, 20);
+}
+

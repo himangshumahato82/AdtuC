@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Dashboard.css";
-import timelogo from "../logo/time.png"
+// import timelogo from "../logo/time.png"
+import time from "../logo/time.png"
 import smslogo from "../logo/smslogo.png"
 import notes from "../logo/notesl.png"
 import rate from "../logo/ratel.png"
@@ -125,7 +126,7 @@ function Dashboard(props) {
             </div>
             <div className='stu-gt'>
             <div className='stu-child'>
-            <img src={timelogo} alt="" />
+            <img src={time} alt="" />
                <p>
               Time table
                </p>
@@ -150,7 +151,7 @@ function Dashboard(props) {
            
            </div>
            <div className='news'>
-              <div style={{backgroundColor:'teal',padding:"3px"}}>
+              <div style={{backgroundColor:'teal',padding:"20px"}}>
               <h1>Google News</h1>
               </div>
              <div>

@@ -1,9 +1,10 @@
 import React from 'react';
-
+import Pagenotfound from '../PageNot/Pagenotfound';
 function Profile(props) {
     return (
         <div>
-            <h1>My Profile</h1>
+           <Pagenotfound/>
+
         </div>
     );
 }
