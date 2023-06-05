@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import USER_AUTH from "../services/user-auth-api";
 import { profileContext } from "../context/myContext";
 import FIND_COURSE from "../services/course-api";
-import { Route, Routes} from "react-router-dom";
+import { Route, Routes,Navigate} from "react-router-dom";
 import Home from "../Components/Home/Home";
 import Contact from "../Components/Contacts/Contact";
 import Dashboard from "../Components/Dashboard/Dashboard";
@@ -61,7 +61,7 @@ function AllRoutes() {
     <div >
       <Routes>
       <Route path="/question" element={<Home />}>
-        <Route path="/question" element={<Dashboard/>} />
+        <Route path="/question" element={<Navigate to ="dashboard" />}/>
         <Route path="dashboard" element={<Dashboard/>} />
         <Route path="profile" element={<Profile/>} />
         <Route path="know" element={<Know/>} />
