@@ -61,7 +61,7 @@ function AllRoutes() {
     <div >
       <Routes>
       <Route path="/question" element={<Home />}>
-        <Route path="question" element={<Dashboard/>} />
+        <Route path="/question" element={<Dashboard/>} />
         <Route path="dashboard" element={<Dashboard/>} />
         <Route path="profile" element={<Profile/>} />
         <Route path="know" element={<Know/>} />
