@@ -1,0 +1,8 @@
+.payment>div{
+    text-align: center;
+    width: 98%;
+    margin: 20px;
+    padding: 20px;
+    /* border: 2px solid teal; */
+    background-color: rgb(224, 192, 192);
+}

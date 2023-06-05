@@ -1,0 +1,23 @@
+.know{
+    display: grid;
+    width: 100%;
+    border: 2px solid teal;
+    padding: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.know>div{
+  
+   margin:10px;
+    width: 95%;
+    height: 400px;
+    border: 2px solid teal;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.know>div>div{
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: 2px solid rgb(92, 159, 77);
+}
