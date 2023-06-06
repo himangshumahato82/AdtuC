@@ -7,7 +7,8 @@ import { profileContext } from "../context/myContext";
 const Navbar = () => {
   const { profile, setProfile } = useContext(profileContext);
   console.log(profile)
-  const URL = "https://skygoal-backed-data.up.railway.app";
+  // const URL = "https://skygoal-backed-data.up.railway.app";
+  const URL = "https://adtub-production.up.railway.app"
   const redirect = useNavigate();
   const logoutUser = () => {
     localStorage.removeItem("TALENT_BOX_TOKEN");
@@ -15,10 +16,10 @@ const Navbar = () => {
     redirect("/");
   };
   const Question=()=>{
-    alert("Without Login you can't view question")
+    
     if(Object.keys(profile).length > 0){
      
-      redirect("/question")
+      redirect("/student")
       
     }else{
       redirect("/register")

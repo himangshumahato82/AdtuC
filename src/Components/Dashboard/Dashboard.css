@@ -10,7 +10,7 @@ div>.first-row{
 
 .student{
     display: flex;
-    background-color: rgb(15, 170, 241);
+    background-color:#00add5;
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 27%;
@@ -37,7 +37,7 @@ div>.first-row{
 }
 .facality{
     display: flex;
-    background-color: rgb(167, 207, 64);
+    background-color:#cddc39;
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 27%;
@@ -47,7 +47,7 @@ div>.first-row{
 }
 .course{
     display: flex;
-    background-color: rgb(26, 219, 132);
+    background-color:#65bb6a;
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 27%;
@@ -84,8 +84,8 @@ div>.first-row{
 .stu-g{
     
     width: 22%;
-    height: 300px;
-    background-color:#00ffd5;
+    height: 250px;
+    background-color:#87efc4;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -115,24 +115,24 @@ div>.first-row{
 .stu-gt{
    
     width: 22%;
-    height: 300px;
-    background-color:#b365e1;
+    height: 250px;
+    background-color:#e4b4e4;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .stu-gn{
    
     width: 22%;
-    height: 300px;
-    background-color:#3cd8eb;
+    height: 250px;
+    background-color:#82e6fe;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .stu-gr{
   
     width: 22%;
-    height: 300px;
-    background-color:#bf5432;
+    height: 250px;
+    background-color:#f38584 ;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 

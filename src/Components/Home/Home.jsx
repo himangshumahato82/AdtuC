@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Home.css";
 import Atten from "../Attendance/Atten";
+import CollegeNotice from '../NoticeCol/CollegeNotice';
 import {Link,Outlet} from "react-router-dom";
 function Home(props) {
 var links=[
@@ -66,6 +67,7 @@ var links=[
       </div>
       <div className='attendance'>
           <Atten/>
+           <CollegeNotice/>
       </div>
       
       </div>

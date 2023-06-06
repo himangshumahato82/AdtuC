@@ -15,7 +15,7 @@ function AllRLog() {
         <Route path="/" element={<Register/>} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/question" element={<Question />} />
+        <Route path="/student" element={<Question />} />
       </Routes>
     </div>
   );

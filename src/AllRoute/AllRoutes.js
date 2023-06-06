@@ -60,8 +60,8 @@ function AllRoutes() {
   return (
     <div >
       <Routes>
-      <Route path="/question" element={<Home />}>
-        <Route path="/question" element={<Navigate to ="dashboard" />}/>
+      <Route path="/student" element={<Home />}>
+        <Route path="/student" element={<Navigate to ="dashboard" />}/>
         <Route path="dashboard" element={<Dashboard/>} />
         <Route path="profile" element={<Profile/>} />
         <Route path="know" element={<Know/>} />

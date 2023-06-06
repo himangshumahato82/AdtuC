@@ -10,7 +10,7 @@ body {
 /* nav-bar css  */
 /* Default styles for nav-bar */
 #nav-bar {
-  background-color: black;
+  background-color: #232323;
   display: flex;
   justify-content: right;
   padding: 0px 40px;

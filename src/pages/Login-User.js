@@ -36,7 +36,7 @@ const Login = () => {
             console.log(result.data.Token)
       localStorage.setItem("TALENT_BOX_TOKEN", result.data.Token);
       alert("Log in successfull....");
-      redirect("/question");
+      redirect("/student");
     } else {
       alert(result.response.data.message);
     }
