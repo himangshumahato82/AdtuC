@@ -154,7 +154,7 @@ function Dashboard(props) {
         </div>
            
            </div>
-           <div className='news'>
+           <div className='news' style={{boxShadow:"none"}}>
               <div style={{backgroundColor:'#00cfd1',padding:"20px"}}>
               <h1>Google News</h1>
               </div>

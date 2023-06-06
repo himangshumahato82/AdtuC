@@ -11,7 +11,7 @@ function CollegeNotice(props) {
          .then((data)=>{
            setState(data.articles)
          })
-        },2000)
+        },)
         return ()=>clearTimeout(handlechange)
      
    },[])
